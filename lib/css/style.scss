@@ -395,6 +395,12 @@ h6 {
 
 section.module-spacer {
     margin-bottom: 5rem;
+    &:first-of-type {
+        margin-top: 5rem;
+        @media(min-width: 768px) {
+            margin-top: 12.5rem;
+        }
+    }
     @media(min-width: 768px) {
         margin-bottom: 12.5rem;
     }
@@ -557,4 +563,10 @@ a.wcag--opens-new-window {
 .btn-cta.wcag--opens-new-window,
 .btn-cta--invert.wcag--opens-new-window {
     background-position: top 7px right;
+}
+
+@media(min-width:601px) {
+    .sm\:block {
+        display: block;
+    }
 }

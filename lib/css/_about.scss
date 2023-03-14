@@ -236,6 +236,9 @@
                     animation: fadedown .6s forwards;
                     animation-delay: .5s;
                 }
+                @media(max-width:1023.98px) {
+                    display: none;
+                }
             }
             @media(min-width: 768px) {
                 position: relative;
@@ -323,6 +326,7 @@
                     border-radius: 0px;
                     border-width: 0px;
                     bottom: 1rem;
+                    z-index: 1;
                 }
                 .slick-prev {
                     left: 2.75rem;
